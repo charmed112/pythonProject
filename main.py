@@ -1,16 +1,9 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#1) Поработайте с переменными, создайте несколько, выведите на экран,
+# запросите у пользователя несколько чисел и строк и сохраните в переменные,
+# выведите на экран.
+input
+a = input("Напишите в поле как вас зовут: ")
+b = input("Введите сколько вам лет: ")
+print(f'''Мы рады приветсвовать тебя {a}   
+ты уже почти взрослый раз тебе  
+Уже -)  {b} лет''')
