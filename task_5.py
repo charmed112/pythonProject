@@ -10,8 +10,8 @@ profit_value = int(input("Введите значения выручки: "))
 company_receipts = int(input("Введите значения издержеки фирмы: "))
 differense = profit_value / company_receipts
 result = round(differense, 1)
-if profit_value < company_receipts:
-   print("убыток — издержки больше выручки")
+if profit_value <= company_receipts:
+   print("убыток — издержки больше либо равно  выручке")
 else:
    print("прибыль — выручка больше издержек")
    print(f'соотношение прибыли к выручке {result}')
