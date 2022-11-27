@@ -4,11 +4,11 @@
 
 
 n = int(input("Введите целое положительное число "))
-found_count = n % 10
+found_number = n % 10
 while n >= 1:
     n = n // 10
-    if n % 10 > found_count:
+    if n % 10 > found_number:
         found_count = n % 10
     elif n > 9:
         pass
-print(f"Максимальное цифра в числе {found_count}")
+print(f"Максимальное цифра в числе {found_number}")
