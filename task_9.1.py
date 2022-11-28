@@ -3,9 +3,15 @@
 # Напишите решения через list и через dict.
 mon_1 = int(input("Введите число чтобы узнать время года по месяцу: "))
 list_1 = ['зима', 'весна', 'лето', 'осень']
-if mon_1 > 0 and mon_1 <= 2:print(list_1[0])
-if mon_1 >=3 and mon_1 <= 5: print(list_1[1])
-if mon_1 >= 6 and mon_1 <= 8: print(list_1[2])
-if mon_1 >= 9 and mon_1 <= 11: print(list_1[3])
-if mon_1 == 12: print(list_1[0])
-if mon_1 >= 13: print('Ошибка вы вышли за переделы диапазона')
+if 0 < mon_1 <= 2:
+    print(list_1[0])
+if 3 <= mon_1 <= 5:
+    print(list_1[1])
+if 6 <= mon_1 <= 8:
+    print(list_1[2])
+if 9 <= mon_1 <= 11:
+    print(list_1[3])
+if mon_1 == 12:
+    print(list_1[0])
+if mon_1 >= 13:
+    print('Ошибка вы вышли за переделы диапазона')
